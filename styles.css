@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css?family=Gupter&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #1f115e;
+    font-family: 'Gupter', serif;
+    overflow: hidden;
+}
+
+.container{
+    animation: help 2s;
+    animation-delay: 11s;
+}
+
+.i{
+    background: #32b611;
+    transition: all 0.5s ease-in-out;
+    width: 100px;
+    cursor: pointer;
+    animation: i 1s ease-in-out;
+    box-shadow: 0px 0px 10px 1px  #32b611;
+}
+
+.i:hover{
+    background: none;
+    border: 1px solid #32b611;
+    color: #32b611;
+}
+
+.l{
+    background: #04c062;
+    transition: all 0.5s ease-in-out;
+    width: 200px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px  #04c062;
+    animation: l 1s;
+    animation-delay: 1s;
+}
+
+.l:hover{
+    background: none;
+    border: 1px solid #04c062;
+    color: #04c062;
+}
+
+.o{
+    background: #ad17ad;
+    transition: all 0.5s ease-in-out;
+    width: 300px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px #ad17ad;
+    animation: o 1s;
+    animation-delay: 2s;
+}
+
+.o:hover{
+    background: none;
+    border: 1px solid #ad17ad;
+    color: #ad17ad;
+}
+
+.v{
+    background: #c02256;
+    transition: all 0.5s ease-in-out;
+    width: 400px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px #c02256;
+    animation: v 1s;
+    animation-delay: 3s;
+}
+
+.v:hover{
+    background: none;
+    border: 1px solid #c02256;
+    color: #c02256;
+}
+
+.e{
+    background: #337aff;
+    transition: all 0.5s ease-in-out;
+    width: 300px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px #337aff;
+    animation: e 1s;
+    animation-delay: 4s;
+}
+
+.e:hover{
+    background: none;
+    border: 1px solid #337aff;
+    color: #337aff;
+}
+
+.t{
+    background: #e0661f;
+    transition: all 0.5s ease-in-out;
+    width: 200px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px #e0661f;
+    animation: t 1s;
+    animation-delay: 5s;
+}
+
+.t:hover{
+    background: none;
+    border: 1px solid #e0661f;
+    color: #e0661f;
+}
+
+.o2{
+    background: #ca1313;
+    transition: all 0.5s ease-in-out;
+    width: 50px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px #ca1313;
+    animation: o2 1s;
+    animation-delay: 6s;
+    
+}
+
+.o2:hover{
+    background: none;
+    border: 1px solid #ca1313;
+    color: #ca1313;
+}
+
+
+.c{
+    background: #125988;
+    transition: all 0.5s ease-in-out;
+    width: 200px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px #125988;
+    animation: c 1s;
+    animation-delay: 7s;
+}
+
+.c:hover{
+    background: none;
+    border: 1px solid #125988;
+    color: #125988;
+}
+
+
+.o3{
+    background: #aa9a0e;
+    transition: all 0.5s ease-in-out;
+    width: 300px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px #aa9a0e;
+    animation: o3 1s;
+    animation-delay: 8s;
+}
+
+.o3:hover{
+    background: none;
+    border: 1px solid #aa9a0e;
+    color: #aa9a0e;
+}
+
+
+.d{
+    background: #ff33ff;
+    transition: all 0.5s ease-in-out;
+    width: 200px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px #ff33ff;
+    animation: d 1s;
+    animation-delay: 9s;
+}
+
+.d:hover{
+    background: none;
+    border: 1px solid #ff33ff;
+    color: #ff33ff;
+}
+
+
+.e2{
+    background: #1e29c8;
+    transition: all 0.5s ease-in-out;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px #1e29c8;
+    animation: e2 1s;
+    animation-delay: 10s;
+}
+
+.e2:hover{
+    background: none;
+    border: 1px solid #1e29c8;
+    color: #1e29c8;
+}
+
+
+
+
+
+
+div{
+    text-align: center;
+    color: #fff;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    margin: 10px auto;
+    padding: 3px;
+}
+
+
+@keyframes i{
+    0%{
+        transform: rotate(0deg);
+        width: 100px;
+        opacity: 1;
+    }
+
+    50%{
+        transform: rotate(1360deg);
+        width: 20px;
+        opacity: 0.5;
+    }
+
+    100%{
+        transform: rotate(0deg);
+        width: 100px;
+    }
+}
+
+
+
+@keyframes l{
+    0%{
+        background: #04c062;
+
+    }
+
+    25%{
+        background: none;
+    }
+
+    50%{
+        background: #04c062;
+    }
+
+    75%{
+        background: none;
+    }
+
+    100%{
+        background: #04c062;
+    }
+}
+
+@keyframes o{
+    0%{
+        width: 300px;
+        transform: rotate(0deg);
+    }
+
+    50%{
+        width: 50px;
+        transform: rotate(180deg);
+    }
+
+    100%{   
+        width: 300px;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes v{
+    0%{
+        opacity: 1;
+    }
+
+    50%{    
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes e{
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(0);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes t{
+    0%{
+        background: #e0661f;
+    }
+
+    50%{
+        background: none;
+    }
+
+    100%{
+        background: #e0661f;
+    }
+}
+
+@keyframes o2{
+    0%{
+        transform: skewY(0deg);
+    }
+
+    50%{
+        transform: skewY(30deg);
+    }
+    
+    100%{
+        transform: skewY(0deg);
+    }
+}
+
+@keyframes c{
+    0%{
+        transform: skewX(0deg);
+    }
+
+    50%{
+        transform: skewX(50deg);
+    }
+
+    100%{
+        transform: skewX(0deg);
+    }
+}
+
+@keyframes o3{
+    0%{
+        transform: translateX(0px);
+    }
+
+    50%{
+        transform: translateX(200px)
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes d{
+    0%{
+        transform: translateY(0px) translateX(0px);
+    }
+
+    50%{
+        transform: translateY(100px) translateX(250px);
+    }
+
+    100%{
+        transform: translateY(0px) translateX(0px);
+    }
+}
+
+@keyframes e2{
+    0%{
+        transform: translateX(0px);
+    }
+
+    50%{    
+        transform: translateX(-200px);
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes help{
+    0%{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+
+    25%{
+        transform: rotate(180deg);
+        opacity: 0;
+    }
+
+    50%{
+        transform: rotate(-360deg);
+        opacity: 1;
+    }
+
+    75%{    
+        transform: rotate(1000deg);
+        opacity: 0;
+
+    }
+
+    100%{
+        transform: rotate(0deg);
+        opacity: 1;
+
+    }
+}
